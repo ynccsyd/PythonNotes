@@ -21,10 +21,10 @@ print("{} {}".format(soyisim, isim))
 x=int(input("x degerini gir:"))
 y=int(input("x degerini gir:"))
 karesi=(x+y)**2
-print("Test veirisi x: {}, y:{}".format(x,y))
+print("Test verisi x: {}, y:{}".format(x,y))
 print("({}+{})^2= {}".format(x,y,karesi))
 # x degerini gir:2
-# x degerini gir:5
-# Test veirisi x: 2, y:5
+# y degerini gir:5
+# Test verisi x: 2, y:5
 # (2+5)^2= 49
 
