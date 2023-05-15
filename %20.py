@@ -1,4 +1,6 @@
-# Ortalamadan %20 den daha uzak olanları seçen bir liste üretici yaz
+ """
+ Ortalamadan %20 den daha uzak olanları seçen bir liste üretici yaz
+ """
 
 x=[0,1,2,3,4,5,6,7,8,9,10]
 yuzde=20
