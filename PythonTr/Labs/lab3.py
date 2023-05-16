@@ -24,7 +24,7 @@ karesi=(x+y)**2
 print("Test verisi x: {}, y:{}".format(x,y))
 print("({}+{})^2= {}".format(x,y,karesi))
 # x degerini gir:2
-# y degerini gir:5
+# x degerini gir:5
 # Test verisi x: 2, y:5
 # (2+5)^2= 49
 
