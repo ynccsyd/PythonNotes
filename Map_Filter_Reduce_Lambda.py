@@ -34,3 +34,10 @@ def reduce_fonk(a="", b=""):
 reduce_l=reduce(reduce_fonk, liste)
 print(reduce_l)
 # aliveliHakansuna
+
+liste=[1,2,3,4,5]
+f=lambda a,b:a+b
+from functools import reduce
+x=reduce(f, liste)
+print(x)
+# 15
