@@ -49,3 +49,6 @@ from functools import reduce
 import random
 x= reduce(lambda a,b:a+b, [random.random() for i in range(10)])
 print(x)
+
+
+int(sum(list(map(lambda x,y:x/y,[6,3,5],[2,4,4]))))

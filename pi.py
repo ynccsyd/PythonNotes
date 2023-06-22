@@ -16,3 +16,6 @@ for i in range(aralik**2):
 
 pi = 4 * (a / (a + b))
 print("Estimated pi:", pi)
+
+
+reduce(lambda a,b:a*b,[1,2,3],2)

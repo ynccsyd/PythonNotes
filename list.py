@@ -9,5 +9,4 @@ y = list(filter(lambda i: (i > (yuzde + 100) * sum(x) / (len(x) * 100)) or (i < 
 print(y)
 # [0, 1, 2, 3, 7, 8, 9, 10]
 
-kelimeler=("demigod", "madam", "python", "salas" ,"php")
-p=list( filter(lambda a: a==a[::-1], kelimeler))
+x=[[random.random() for j in range(100)] for i in range(100)]
