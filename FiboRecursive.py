@@ -12,3 +12,4 @@ def fib2(n):
         return fib[str(n)]
 
 print(fib2(7))
+# Çıktı olarak, 7. Fibonacci sayısı olan 13 elde edilir.
