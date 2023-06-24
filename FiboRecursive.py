@@ -13,3 +13,10 @@ def fib2(n):
 
 print(fib2(7))
 # Çıktı olarak, 7. Fibonacci sayısı olan 13 elde edilir.
+
+
+# a*b işlemini çarpma kullanmadan rekürsif olarak yerine getiren bir metodu kodlayınız.
+
+def rekursif(a,b):
+    return 1 if b==0 else a*rekursif(a,b-1)
+print rekursif(2,10)
